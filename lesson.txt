@@ -11,4 +11,51 @@ prompt bu input malumotlar olish uchun masalan ish,yosh va boshqa
  
  confirm bu funksia muhim qarorlar ,va malumotni ochirish va boshqa operatsialarni tasdiqlash uchun
  
- 
+ let cal = alert("Calculyator");
+let bir = prompt("1chi raqam kiriting");
+let ikki = prompt("2chi raqam kiriting");
+let vazifa = prompt("kiriting *,+,/,-");
+function xsoblash() {
+  if (vazifa == "*"){
+    let kopaytirish = bir * ikki ;
+    console.log(kopaytirish) ;
+  } else if (vazifa =="+"){
+    let plus = bir + ikki;
+    console.log(plus)
+  } else if (vazifa == "-"){
+    let minus = bir - ikki;
+    console.log(minus)
+  } else if (vazifa == "/"){
+    let bolish = bir / ikki;
+    console.log(bolish)
+  } else {
+    console.log("nomalum")
+  }
+}
+
+ xsoblash();
+let ism = prompt("ismingizni kiring")
+let yil = prompt("tugilgan yilizi kiriting");
+let kun = prompt("tugilgan kuni kiriting");
+let oyIndex = prompt("tugilgan oydi kiriting");
+
+let yils = yil - 2024;
+
+let oylar = [
+  "yanvar",
+  "fevral",
+  "mart",
+  "aprel",
+  "may",
+  "iyun",
+  "iyul",
+  "avgust",
+  "sentaybr",
+  "oktaybr",
+  "noyabr",
+  "decabr"
+];
+ let  oy = oylar [oyIndex- 1];
+console.log(`"${ism} yoshiz ${yils}da  tugilgan kuniz  ${kun} ${oy}da "`);
+
+
