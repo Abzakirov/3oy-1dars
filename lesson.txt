@@ -1,0 +1,14 @@
+ ler var const
+
+ var eski kirib ketgan
+
+ let bn var di ozgartirib boladi 
+
+const ti ozgartirib bolmedi
+
+prompt bu input malumotlar olish uchun masalan ish,yosh va boshqa
+ alert bu muhim malumotlar, xatolar  chiqaz berishi asosan ishlatilinadi
+ 
+ confirm bu funksia muhim qarorlar ,va malumotni ochirish va boshqa operatsialarni tasdiqlash uchun
+ 
+ 
